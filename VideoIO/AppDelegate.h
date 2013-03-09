@@ -1,15 +1,10 @@
-//
-//  AppDelegate.h
-//  VideoIO
-//
-//  Created by Alex Gray on 08/03/2013.
-//  Copyright (c) 2013 Alex Gray. All rights reserved.
-//
 
-#import <Cocoa/Cocoa.h>
 
+@class Taskit;
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (nonatomic, strong) Taskit *p2psip, *rtmplite;
 @property (assign) IBOutlet NSWindow *window;
+@property (strong, nonatomic) NSDictionary *cities;
 
 @end
