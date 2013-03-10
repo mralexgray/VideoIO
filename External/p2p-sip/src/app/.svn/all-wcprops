@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/74/trunk/src/app
+END
+dummycrypto.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/21/trunk/src/app/dummycrypto.py
+END
+voip.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/74/trunk/src/app/voip.py
+END
+p2psip.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/34/trunk/src/app/p2psip.py
+END
+sipcaller.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/60/trunk/src/app/sipcaller.py
+END
+sipd.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/61/trunk/src/app/sipd.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/src/app/__init__.py
+END
+dht.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/21/trunk/src/app/dht.py
+END
+crypto.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/19/trunk/src/app/crypto.py
+END
+opendht.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/src/app/opendht.py
+END
+p2p.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/34/trunk/src/app/p2p.py
+END
+dhtgui.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/21/trunk/src/app/dhtgui.py
+END
+sipapi.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/60/trunk/src/app/sipapi.py
+END
+gchat.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/70/trunk/src/app/gchat.py
+END

@@ -8,6 +8,23 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SIPRunner : NSOperation
+
+
+@interface SIPRunner : NSOperationQueue
+
+@property (nonatomic, strong) NSTask *rtmplite, *sipd;
+
+
+
+// Designated initializer.
 
 @end
+
+
+//@interface SIPdOperation : NSOperation
+//
+//// Designated initializer.
+//- (id)initWithWaitTime:(NSTimeInterval)waitTime;
+//
+//@end
+

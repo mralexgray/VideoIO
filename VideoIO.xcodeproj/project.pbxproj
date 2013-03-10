@@ -14,7 +14,10 @@
 		7B4B9D4B16EAF6CD002CCC63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B9D4A16EAF6CD002CCC63 /* AppDelegate.m */; };
 		7B4B9D4E16EAF6CD002CCC63 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B9D4C16EAF6CD002CCC63 /* MainMenu.xib */; };
 		7B4B9D5516EAFDAB002CCC63 /* weather.py in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B9D5416EAFDAB002CCC63 /* weather.py */; };
-		7B4B9D5C16EB23F3002CCC63 /* Taskit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B9D5B16EB23F3002CCC63 /* Taskit.m */; };
+		7B4B9D5D16EB4110002CCC63 /* rtmplite in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B9D5616EB110A002CCC63 /* rtmplite */; };
+		7B4B9D5E16EB4110002CCC63 /* p2p-sip in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B9D5716EB110A002CCC63 /* p2p-sip */; };
+		7B4B9D6516EB6CEE002CCC63 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4B9D6416EB6CED002CCC63 /* Python.framework */; };
+		7B9AC1D216EBBC2100F8763C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9AC1D116EBBC2100F8763C /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +37,10 @@
 		7B4B9D5416EAFDAB002CCC63 /* weather.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = weather.py; sourceTree = "<group>"; };
 		7B4B9D5616EB110A002CCC63 /* rtmplite */ = {isa = PBXFileReference; lastKnownFileType = folder; name = rtmplite; path = External/rtmplite; sourceTree = "<group>"; };
 		7B4B9D5716EB110A002CCC63 /* p2p-sip */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "p2p-sip"; path = "External/p2p-sip"; sourceTree = "<group>"; };
-		7B4B9D5A16EB23F3002CCC63 /* Taskit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Taskit.h; sourceTree = "<group>"; };
-		7B4B9D5B16EB23F3002CCC63 /* Taskit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Taskit.m; sourceTree = "<group>"; };
+		7B4B9D6416EB6CED002CCC63 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /System/Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
+		7B9AC1D116EBBC2100F8763C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		7B9AC1F516EBD46C00F8763C /* SIPRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIPRunner.h; sourceTree = "<group>"; };
+		7B9AC1F616EBD46C00F8763C /* SIPRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIPRunner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B9AC1D216EBBC2100F8763C /* QuartzCore.framework in Frameworks */,
+				7B4B9D6516EB6CEE002CCC63 /* Python.framework in Frameworks */,
 				7B4B9D3816EAF6CD002CCC63 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +79,8 @@
 		7B4B9D3616EAF6CD002CCC63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7B9AC1D116EBBC2100F8763C /* QuartzCore.framework */,
+				7B4B9D6416EB6CED002CCC63 /* Python.framework */,
 				7B4B9D3716EAF6CD002CCC63 /* Cocoa.framework */,
 				7B4B9D3916EAF6CD002CCC63 /* Other Frameworks */,
 			);
@@ -93,6 +102,8 @@
 			children = (
 				7B4B9D4916EAF6CD002CCC63 /* AppDelegate.h */,
 				7B4B9D4A16EAF6CD002CCC63 /* AppDelegate.m */,
+				7B9AC1F516EBD46C00F8763C /* SIPRunner.h */,
+				7B9AC1F616EBD46C00F8763C /* SIPRunner.m */,
 				7B4B9D4C16EAF6CD002CCC63 /* MainMenu.xib */,
 				7B4B9D3E16EAF6CD002CCC63 /* Supporting Files */,
 			);
@@ -102,8 +113,6 @@
 		7B4B9D3E16EAF6CD002CCC63 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7B4B9D5A16EB23F3002CCC63 /* Taskit.h */,
-				7B4B9D5B16EB23F3002CCC63 /* Taskit.m */,
 				7B4B9D3F16EAF6CD002CCC63 /* VideoIO-Info.plist */,
 				7B4B9D4016EAF6CD002CCC63 /* InfoPlist.strings */,
 				7B4B9D4316EAF6CD002CCC63 /* main.m */,
@@ -168,6 +177,8 @@
 				7B4B9D4216EAF6CD002CCC63 /* InfoPlist.strings in Resources */,
 				7B4B9D4816EAF6CD002CCC63 /* Credits.rtf in Resources */,
 				7B4B9D4E16EAF6CD002CCC63 /* MainMenu.xib in Resources */,
+				7B4B9D5D16EB4110002CCC63 /* rtmplite in Resources */,
+				7B4B9D5E16EB4110002CCC63 /* p2p-sip in Resources */,
 				7B4B9D5516EAFDAB002CCC63 /* weather.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,7 +192,6 @@
 			files = (
 				7B4B9D4416EAF6CD002CCC63 /* main.m in Sources */,
 				7B4B9D4B16EAF6CD002CCC63 /* AppDelegate.m in Sources */,
-				7B4B9D5C16EB23F3002CCC63 /* Taskit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +254,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = "";
 			};
 			name = Debug;
 		};
@@ -270,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx;
+				SDKROOT = "";
 			};
 			name = Release;
 		};
@@ -281,6 +291,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VideoIO/VideoIO-Prefix.pch";
 				INFOPLIST_FILE = "VideoIO/VideoIO-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					AtoZ,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -293,6 +307,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VideoIO/VideoIO-Prefix.pch";
 				INFOPLIST_FILE = "VideoIO/VideoIO-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					AtoZ,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -317,6 +335,7 @@
 				7B4B9D5316EAF6CD002CCC63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

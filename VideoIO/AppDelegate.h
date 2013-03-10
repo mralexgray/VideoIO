@@ -1,9 +1,15 @@
+#import <Python/Python.h>
+#import <AtoZ/AtoZ.h>
 
 
-@class Taskit;
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (nonatomic, strong) Taskit *p2psip, *rtmplite;
+//@property (strong) AZSimpleView *rtmpIsOn, *sipIsOn;
+
+@property (nonatomic, strong) NSTask *rtmplite, *sipd;
+
+//@property (assign) IBOutlet SIPRunner *runner;
 @property (assign) IBOutlet NSWindow *window;
 @property (strong, nonatomic) NSDictionary *cities;
 

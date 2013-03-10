@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/72/trunk/src/std
+END
+rfc3920.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/20/trunk/src/std/rfc3920.py
+END
+rfc3551.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/src/std/rfc3551.py
+END
+kutil.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/44/trunk/src/std/kutil.py
+END
+rfc3263.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/67/trunk/src/std/rfc3263.py
+END
+t140.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/58/trunk/src/std/t140.py
+END
+rfc3264.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/55/trunk/src/std/rfc3264.py
+END
+rfc3921.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/20/trunk/src/std/rfc3921.py
+END
+rfc2833.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/src/std/rfc2833.py
+END
+rfc2617.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/67/trunk/src/std/rfc2617.py
+END
+rfc2396.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/67/trunk/src/std/rfc2396.py
+END
+rfc2198.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/55/trunk/src/std/rfc2198.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/src/std/__init__.py
+END
+rfc4566.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/55/trunk/src/std/rfc4566.py
+END
+rfc3489bis.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/src/std/rfc3489bis.py
+END
+rfc3261.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/72/trunk/src/std/rfc3261.py
+END
+rfc3550.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/53/trunk/src/std/rfc3550.py
+END

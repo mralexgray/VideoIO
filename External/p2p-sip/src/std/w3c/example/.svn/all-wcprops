@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/src/std/w3c/example
+END
+goodbye2.vxml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/src/std/w3c/example/goodbye2.vxml
+END
+app.vxml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/src/std/w3c/example/app.vxml
+END
+app-root.vxml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/src/std/w3c/example/app-root.vxml
+END
+acct_info.vxml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/src/std/w3c/example/acct_info.vxml
+END
+leaf.vxml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/src/std/w3c/example/leaf.vxml
+END
+goodbye1.vxml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/src/std/w3c/example/goodbye1.vxml
+END
